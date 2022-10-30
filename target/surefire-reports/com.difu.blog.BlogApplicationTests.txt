@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: com.difu.blog.BlogApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 14.59 s <<< FAILURE! - in com.difu.blog.BlogApplicationTests
+contextLoads  Time elapsed: 0.031 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: 
+Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'typeShowController' method 
+com.difu.blog.controller.TypeShowController#types(Pageable, Model, Long)
+to {GET [/types/{id}]}: There is already 'tagShowController' bean method
+com.difu.blog.controller.TagShowController#types(Pageable, Model, Long) mapped.
+Caused by: java.lang.IllegalStateException: 
+Ambiguous mapping. Cannot map 'typeShowController' method 
+com.difu.blog.controller.TypeShowController#types(Pageable, Model, Long)
+to {GET [/types/{id}]}: There is already 'tagShowController' bean method
+com.difu.blog.controller.TagShowController#types(Pageable, Model, Long) mapped.
+

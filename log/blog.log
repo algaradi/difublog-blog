@@ -1,0 +1,76 @@
+2022-10-30 09:27:07.121  INFO 8068 --- [restartedMain] com.difu.blog.BlogApplication            : Starting BlogApplication using Java 1.8.0_121 on LAPTOP-OT2J27UQ with PID 8068 (F:\IdeaSpringBootProjects\blog\target\classes started by Lenovo in F:\IdeaSpringBootProjects\blog)
+2022-10-30 09:27:07.127 DEBUG 8068 --- [restartedMain] com.difu.blog.BlogApplication            : Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-10-30 09:27:07.128  INFO 8068 --- [restartedMain] com.difu.blog.BlogApplication            : The following 1 profile is active: "dev"
+2022-10-30 09:27:07.209  INFO 8068 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-30 09:27:07.211  INFO 8068 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-30 09:27:08.528  INFO 8068 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-30 09:27:08.660  INFO 8068 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 111 ms. Found 5 JPA repository interfaces.
+2022-10-30 09:27:09.508 ERROR 8068 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An incompatible version [1.2.5] of the Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2022-10-30 09:27:10.185  INFO 8068 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-10-30 09:27:10.200  INFO 8068 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-10-30 09:27:10.200  INFO 8068 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-10-30 09:27:10.521  INFO 8068 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-10-30 09:27:10.522  INFO 8068 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3309 ms
+2022-10-30 09:27:10.810  INFO 8068 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-10-30 09:27:10.893  INFO 8068 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.8.Final
+2022-10-30 09:27:11.193  INFO 8068 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-10-30 09:27:11.366  INFO 8068 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-10-30 09:27:12.979  INFO 8068 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-10-30 09:27:13.016  INFO 8068 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-10-30 09:27:14.284  INFO 8068 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-10-30 09:27:14.298  INFO 8068 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-30 09:27:15.751  WARN 8068 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-30 09:27:16.676  INFO 8068 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-10-30 09:27:17.498  INFO 8068 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-10-30 09:27:17.574  INFO 8068 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-30 09:27:17.596  INFO 8068 --- [restartedMain] com.difu.blog.BlogApplication            : Started BlogApplication in 11.417 seconds (JVM running for 14.698)
+2022-10-30 09:28:32.270  INFO 8068 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-30 09:28:32.270  INFO 8068 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-10-30 09:28:32.273  INFO 8068 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-10-30 09:28:35.082  INFO 8068 --- [http-nio-8080-exec-3] com.difu.blog.aspectLog.AspectLogger     : =========Before==============
+2022-10-30 09:28:35.585  WARN 8068 --- [http-nio-8080-exec-3] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2022-10-30 09:28:35.619  WARN 8068 --- [http-nio-8080-exec-3] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2022-10-30 09:28:35.657  INFO 8068 --- [http-nio-8080-exec-3] com.difu.blog.aspectLog.AspectLogger     : Return :index
+2022-10-30 09:28:35.657  INFO 8068 --- [http-nio-8080-exec-3] com.difu.blog.aspectLog.AspectLogger     : =============After===============
+2022-10-30 09:33:25.408  INFO 8068 --- [http-nio-8080-exec-7] com.difu.blog.aspectLog.AspectLogger     : =========Before==============
+2022-10-30 09:33:25.452  INFO 8068 --- [http-nio-8080-exec-7] com.difu.blog.aspectLog.AspectLogger     : Return :types
+2022-10-30 09:33:25.453  INFO 8068 --- [http-nio-8080-exec-7] com.difu.blog.aspectLog.AspectLogger     : =============After===============
+2022-10-30 09:33:56.952  INFO 8068 --- [http-nio-8080-exec-2] com.difu.blog.aspectLog.AspectLogger     : =========Before==============
+2022-10-30 09:33:56.974  INFO 8068 --- [http-nio-8080-exec-2] com.difu.blog.aspectLog.AspectLogger     : Return :tags
+2022-10-30 09:33:56.974  INFO 8068 --- [http-nio-8080-exec-2] com.difu.blog.aspectLog.AspectLogger     : =============After===============
+2022-10-30 09:34:01.044  INFO 8068 --- [http-nio-8080-exec-3] com.difu.blog.aspectLog.AspectLogger     : =========Before==============
+2022-10-30 09:34:01.057  INFO 8068 --- [http-nio-8080-exec-3] com.difu.blog.aspectLog.AspectLogger     : Return :tags
+2022-10-30 09:34:01.057  INFO 8068 --- [http-nio-8080-exec-3] com.difu.blog.aspectLog.AspectLogger     : =============After===============
+2022-10-30 09:34:03.481  INFO 8068 --- [http-nio-8080-exec-5] com.difu.blog.aspectLog.AspectLogger     : =========Before==============
+2022-10-30 09:34:03.494  INFO 8068 --- [http-nio-8080-exec-5] com.difu.blog.aspectLog.AspectLogger     : Return :tags
+2022-10-30 09:34:03.494  INFO 8068 --- [http-nio-8080-exec-5] com.difu.blog.aspectLog.AspectLogger     : =============After===============
+2022-10-30 09:34:07.453  INFO 8068 --- [http-nio-8080-exec-10] com.difu.blog.aspectLog.AspectLogger     : =========Before==============
+2022-10-30 09:34:07.469  INFO 8068 --- [http-nio-8080-exec-10] com.difu.blog.aspectLog.AspectLogger     : Return :tags
+2022-10-30 09:34:07.469  INFO 8068 --- [http-nio-8080-exec-10] com.difu.blog.aspectLog.AspectLogger     : =============After===============
+2022-10-30 09:34:11.099  INFO 8068 --- [http-nio-8080-exec-5] com.difu.blog.aspectLog.AspectLogger     : =========Before==============
+2022-10-30 09:34:11.115  INFO 8068 --- [http-nio-8080-exec-5] com.difu.blog.aspectLog.AspectLogger     : Return :tags
+2022-10-30 09:34:11.115  INFO 8068 --- [http-nio-8080-exec-5] com.difu.blog.aspectLog.AspectLogger     : =============After===============
+2022-10-30 09:34:14.200  INFO 8068 --- [http-nio-8080-exec-1] com.difu.blog.aspectLog.AspectLogger     : =========Before==============
+2022-10-30 09:34:14.214  INFO 8068 --- [http-nio-8080-exec-1] com.difu.blog.aspectLog.AspectLogger     : Return :tags
+2022-10-30 09:34:14.214  INFO 8068 --- [http-nio-8080-exec-1] com.difu.blog.aspectLog.AspectLogger     : =============After===============
+2022-10-30 09:34:15.969  INFO 8068 --- [http-nio-8080-exec-10] com.difu.blog.aspectLog.AspectLogger     : =========Before==============
+2022-10-30 09:34:15.981  INFO 8068 --- [http-nio-8080-exec-10] com.difu.blog.aspectLog.AspectLogger     : Return :tags
+2022-10-30 09:34:15.982  INFO 8068 --- [http-nio-8080-exec-10] com.difu.blog.aspectLog.AspectLogger     : =============After===============
+2022-10-30 09:35:10.086  INFO 8068 --- [http-nio-8080-exec-4] com.difu.blog.aspectLog.AspectLogger     : =========Before==============
+2022-10-30 09:35:10.124  INFO 8068 --- [http-nio-8080-exec-4] com.difu.blog.aspectLog.AspectLogger     : Return :index
+2022-10-30 09:35:10.124  INFO 8068 --- [http-nio-8080-exec-4] com.difu.blog.aspectLog.AspectLogger     : =============After===============
+2022-10-30 09:35:15.700  INFO 8068 --- [http-nio-8080-exec-4] com.difu.blog.aspectLog.AspectLogger     : =========Before==============
+2022-10-30 09:35:16.266  INFO 8068 --- [http-nio-8080-exec-4] com.difu.blog.aspectLog.AspectLogger     : Return :blog
+2022-10-30 09:35:16.266  INFO 8068 --- [http-nio-8080-exec-4] com.difu.blog.aspectLog.AspectLogger     : =============After===============
+2022-10-30 09:35:17.363  INFO 8068 --- [http-nio-8080-exec-6] com.difu.blog.aspectLog.AspectLogger     : =========Before==============
+2022-10-30 09:35:17.432  INFO 8068 --- [http-nio-8080-exec-6] com.difu.blog.aspectLog.AspectLogger     : Return :blog :: commentList
+2022-10-30 09:35:17.432  INFO 8068 --- [http-nio-8080-exec-6] com.difu.blog.aspectLog.AspectLogger     : =============After===============
+2022-10-30 09:35:38.769  INFO 8068 --- [http-nio-8080-exec-7] com.difu.blog.aspectLog.AspectLogger     : =========Before==============
+2022-10-30 09:35:38.800  INFO 8068 --- [http-nio-8080-exec-7] com.difu.blog.aspectLog.AspectLogger     : Return :index
+2022-10-30 09:35:38.800  INFO 8068 --- [http-nio-8080-exec-7] com.difu.blog.aspectLog.AspectLogger     : =============After===============
+2022-10-30 09:35:51.472  INFO 8068 --- [http-nio-8080-exec-1] com.difu.blog.aspectLog.AspectLogger     : =========Before==============
+2022-10-30 09:35:51.543  INFO 8068 --- [http-nio-8080-exec-1] com.difu.blog.aspectLog.AspectLogger     : Return :blog
+2022-10-30 09:35:51.543  INFO 8068 --- [http-nio-8080-exec-1] com.difu.blog.aspectLog.AspectLogger     : =============After===============
+2022-10-30 09:35:53.224  INFO 8068 --- [http-nio-8080-exec-9] com.difu.blog.aspectLog.AspectLogger     : =========Before==============
+2022-10-30 09:35:53.271  INFO 8068 --- [http-nio-8080-exec-9] com.difu.blog.aspectLog.AspectLogger     : Return :blog :: commentList
+2022-10-30 09:35:53.271  INFO 8068 --- [http-nio-8080-exec-9] com.difu.blog.aspectLog.AspectLogger     : =============After===============

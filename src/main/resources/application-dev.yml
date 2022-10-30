@@ -1,0 +1,23 @@
+spring:
+  cache: false
+  prefix: classpath:/templates
+  suffix: .html
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/blog?useUnicode=true&characterEncoding=utf-8&createDatabaseIfNotExist=true
+    username: root
+    password: root
+
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+
+logging:
+  level:
+    root: info
+    com.difu: debug
+  file:
+    name: log/blog.log
+server:
+  port: 8080
